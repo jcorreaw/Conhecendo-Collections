@@ -11,8 +11,7 @@ public class CarrinhoDeCompras {
     }
 
     public void adicionarItem(String nome, double preco, int quantidade) {
-        Item item = new Item(nome, preco, quantidade);
-        itemList.add(item);
+        itemList.add(new Item(nome, preco, quantidade));
     }
 
     public void removerItem(String nome) {
