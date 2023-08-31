@@ -1,7 +1,6 @@
 package exercicios.list;
 
 public class Item {
-
     private String nome;
     private Double preco;
     private int quantidade;

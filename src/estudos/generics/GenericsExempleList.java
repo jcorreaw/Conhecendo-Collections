@@ -7,7 +7,6 @@ import java.util.Objects;
 
 public class GenericsExempleList {
     public static void main(String[] args) {
-
         // Sem Generics
         List listaSemGenerics = new ArrayList();
         listaSemGenerics.add("Elemento 1");
